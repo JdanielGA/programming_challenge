@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App: Home</title>
+</head>
+<body>
+    <header class="title">
+        <h1>
+            Rock, Paper and Scissors Game!
+        </h1>
+        <h3>
+            first challenge.
+        </h3>
+    </header>
+    <section class="game-section">
+        <div class="game">
+            <form id="gameForm">
+                <label for="choice">Choose an option:</label>
+                <input list="options" id="choice" name="choice">
+                <datalist id="options">
+                    <option value="rock">
+                    <option value="paper">
+                    <option value="scissors">
+                </datalist>
+                <input type="submit" value="Submit"><br>
+            </form>
+            <div id="message"></div>
+            <div id="score"></div>
+            <div id="round"></div>
+        </div>
+    </section>
+
+    <script src="js/script.js"></script>
+
+</body>
+</html>
