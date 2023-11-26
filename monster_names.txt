@@ -1,0 +1,29 @@
+<input type="radio" name="monster" id="brutus" value="brutus">
+<label for="mudra">Mudra - Type:💧🌱</label>
+<input type="radio" name="monster" id="mudra" value="mudra">
+<label for="mistral">Mistral - Type:💧💨</label>
+<input type="radio" name="monster" id="mistral" value="mistral">
+<label for="zapra">Zapra - Type:💧⚡</label>
+<input type="radio" name="monster" id="zapra" value="zapra">
+<label for="hydra">Hydra - Type:💧👊</label>
+<input type="radio" name="monster" id="hydra" value="hydra">
+<label for="magmar">Magmar - Type:🌱🔥</label>
+<input type="radio" name="monster" id="magmar" value="magmar">
+<label for="dusty">Dusty - Type:🌱💨</label>
+<input type="radio" name="monster" id="dusty" value="dusty">
+<label for="zapper">Zapper - Type:🌱⚡</label>
+<input type="radio" name="monster" id="zapper" value="zapper">
+<label for="rocky">Rocky - Type:🌱👊</label>
+<input type="radio" name="monster" id="rocky" value="rocky">
+<label for="blaze">Blaze - Type:🔥💨</label>
+<input type="radio" name="monster" id="blaze" value="blaze">
+<label for="sparky">Sparky - Type:🔥⚡</label>
+<input type="radio" name="monster" id="sparky" value="sparky">
+<label for="inferno">Inferno - Type:🔥👊</label>
+<input type="radio" name="monster" id="inferno" value="inferno">
+<label for="stormy">Stormy - Type:💨⚡</label>
+<input type="radio" name="monster" id="stormy" value="stormy">
+<label for="aero">Aero - Type:💨👊</label>
+<input type="radio" name="monster" id="aero" value="aero">
+<label for="shocky">Shocky - Type:⚡👊</label>
+<input type="radio" name="monster" id="shocky" value="shocky">

@@ -8,53 +8,62 @@
 <body>
     <header>
         <h1>Pocket monster</h1>
-        <section id="monster-selector" class="conster-selector">
-            <h2>Select your monster</h2>
-            <div class="monster-buttons">
-                <button id="water-monster">Water-type💧</button>
-                <button id="ground-monster">Ground-type🌱</button>
-                <button id="fire-monster">Fire-type🔥</button>
-                <button id="air-monster">Air-type💨</button>
-                <button id="electric-monster">Electric-type⚡️</button>
-                <button id="physical-monster">Physical-type👊🏽</button>
-        </section>
-        <section id="combat-info" class="combat-info">
-            <div class="monster-health">
-                <p>
-                    your monster has <span id="monster-health">100</span>% health
-                </p>
-            </div>
-            <div class="enemy-health">
-                <p>
-                    enemy monster has <span id="enemy-health">100</span>% health
-                </p>
-            </div>
-        </section>
-        <section id="attack-selector" class="attack-selector">
-            <h2>Choose the attack</h2>
-            <div class="attack-buttons">
-                <button id="attack-1">Attack 1</button>
-                <button id="attack-2">Attack 2</button>
-                <button id="attack-3">Attack 3</button>
-                <button id="attack-4">Attack 4</button>
-            </div>
-            
-        </section>
-        <section id="messages" class="messages">
-            <div class="Your-messages">
-                <p>
-                    Your monster has done something!
-                </p>
-            </div>
-            <div class="enemy-messages">
-                <p>
-                    The enemy monster has done something!
-                </p>
-            </div>
-        </section>
-        <section id="restart" class="restart">
-            <button id="restart-button">Restart</button>
-        </section>
     </header>
+    <section id="monster-selection" class="monster-selection">
+        <h2>Choose your monster</h2>
+        <div id="monster-selector" class="monster-buttons">
+            <input type="radio" name="monster" id="aquarion" value="aquarion">
+            <label for="aquarion">Aquarion - Type:💧</label>
+            <input type="radio" name="monster" id="terrax" value="terrax">
+            <label for="terrax">Terrax - Type:🌱</label>
+            <input type="radio" name="monster" id="flareon" value="flareon">
+            <label for="flareon">Flareon - Type:🔥</label>
+            <input type="radio" name="monster" id="voltix" value="voltix">
+            <label for="voltix">Voltix - Type:⚡</label>
+            <input type="radio" name="monster" id="brutus" value="brutus">
+            <label for="brutus">Brutus - Type:👊</label>
+            <button id="button-monster">select</button>
+        </div>
+    </section>
+    <section id="combat-info" class="combat-info">
+        <div class="monster-health">
+            <p>
+                your monster has <span id="monster-health">100</span>% health
+            </p>
+        </div>
+        <div class="enemy-health">
+            <p>
+                enemy monster has <span id="enemy-health">100</span>% health
+            </p>
+        </div>
+    </section>
+    <section id="attack-selector" class="attack-selector">
+        <h2>Select the attack</h2>
+        <div class="attack-buttons">
+            <button id="attack-1">Attack 1</button>
+            <button id="attack-2">Attack 2</button>
+            <button id="attack-3">Attack 3</button>
+            <button id="attack-4">Attack 4</button>
+        </div>
+        
+    </section>
+    <section id="messages" class="messages">
+        <div class="Your-messages">
+            <p>
+                Your monster has done something!
+            </p>
+        </div>
+        <div class="enemy-messages">
+            <p>
+                The enemy monster has done something!
+            </p>
+        </div>
+    </section>
+    <section id="restart" class="restart">
+        <button id="restart-button">Restart</button>
+    </section>
+    
+    <script src="js/script.js"></script>
+
 </body>
 </html>
